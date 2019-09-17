@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Project]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [PersonalAccessToken] VARCHAR(100) NULL, 
+    [Name] VARCHAR(200) NULL, 
+    [Url] VARCHAR(200) NULL
+)
